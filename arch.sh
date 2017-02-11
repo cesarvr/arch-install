@@ -11,4 +11,5 @@ sudo mount --rbind /sys  root.x86_64/sys
 sudo mount --rbind /dev  root.x86_64/dev
 sudo mount --rbind /run  root.x86_64/run
 
+sudo root.x86_64/bin/arch-chroot root.x86_64/
 
